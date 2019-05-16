@@ -5,7 +5,9 @@ import Cocoa
 ///* ...
 
 var statusCode: Int = 404
-var errorString: String?
+var errorString: String
+
+errorString = "null"
 
 switch statusCode {
 case 400:
@@ -23,6 +25,8 @@ case 404:
 default:
     errorString = "None"
 }
+
+print(errorString);
 //... */
 
 //Listing 1.2  Switch cases can have multiple values
