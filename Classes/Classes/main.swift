@@ -12,9 +12,11 @@ let excercise1 = CommissionEmployee(id: 1, name: "Vlad", commissionRate: 1.5, mo
 print(excercise1.description())
 print(excercise1.CalculateComission())
 
-let excercise2 = BasePlusCommissionEmployee(id: 1, name: "Vlad", commissionRate: 1.5, baseSalary: 35.0, monthlySales: 40000)
-print(excercise1.description())
-print(excercise1.CalculateComission())
+let excercise2 = BasePlusCommissionEmployee(id: 1, name: "Vlad", commissionRate: 1.5, monthlySales: 40000, baseSalary: 35.0)
+print(excercise2.description())
+print(excercise2.CalculateComission())
 
-
+let excercise3 = HourlyEmployee(id: 1, name: "Vlad", numberOfHours: 47, hourlyRate: 35.0)
+print(excercise3.description())
+print(excercise3.getHourlyRate())
 
