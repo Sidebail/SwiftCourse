@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		089C6918229EDC9D00F8E628 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C6917229EDC9D00F8E628 /* main.swift */; };
 		089C6927229EF7EE00F8E628 /* CommissionEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C6926229EF7EE00F8E628 /* CommissionEmployee.swift */; };
+		089C6929229F01FA00F8E628 /* BasePlusCommissionEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C6928229F01FA00F8E628 /* BasePlusCommissionEmployee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		089C6914229EDC9D00F8E628 /* Classes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Classes; sourceTree = BUILT_PRODUCTS_DIR; };
 		089C6917229EDC9D00F8E628 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		089C6926229EF7EE00F8E628 /* CommissionEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionEmployee.swift; sourceTree = "<group>"; };
+		089C6928229F01FA00F8E628 /* BasePlusCommissionEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePlusCommissionEmployee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				089C6917229EDC9D00F8E628 /* main.swift */,
 				089C6926229EF7EE00F8E628 /* CommissionEmployee.swift */,
+				089C6928229F01FA00F8E628 /* BasePlusCommissionEmployee.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			files = (
 				089C6927229EF7EE00F8E628 /* CommissionEmployee.swift in Sources */,
 				089C6918229EDC9D00F8E628 /* main.swift in Sources */,
+				089C6929229F01FA00F8E628 /* BasePlusCommissionEmployee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
