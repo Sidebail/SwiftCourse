@@ -17,7 +17,7 @@ public class CommissionEmployee{
             print("Setting rate to \(newValue)...")
         }
         didSet{
-            if commissionRate <= 1.0 || commissionRate >= 2.0 {
+            if commissionRate < 1.0 || commissionRate > 2.0 {
                 print("Rate is invalid! Setting it back to \(oldValue)")
                 commissionRate = oldValue;
             }

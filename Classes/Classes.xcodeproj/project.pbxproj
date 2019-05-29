@@ -10,6 +10,7 @@
 		089C6918229EDC9D00F8E628 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C6917229EDC9D00F8E628 /* main.swift */; };
 		089C6927229EF7EE00F8E628 /* CommissionEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C6926229EF7EE00F8E628 /* CommissionEmployee.swift */; };
 		089C6929229F01FA00F8E628 /* BasePlusCommissionEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C6928229F01FA00F8E628 /* BasePlusCommissionEmployee.swift */; };
+		089C692B229F037B00F8E628 /* HourlyEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C692A229F037B00F8E628 /* HourlyEmployee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		089C6917229EDC9D00F8E628 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		089C6926229EF7EE00F8E628 /* CommissionEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionEmployee.swift; sourceTree = "<group>"; };
 		089C6928229F01FA00F8E628 /* BasePlusCommissionEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePlusCommissionEmployee.swift; sourceTree = "<group>"; };
+		089C692A229F037B00F8E628 /* HourlyEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyEmployee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				089C6917229EDC9D00F8E628 /* main.swift */,
 				089C6926229EF7EE00F8E628 /* CommissionEmployee.swift */,
 				089C6928229F01FA00F8E628 /* BasePlusCommissionEmployee.swift */,
+				089C692A229F037B00F8E628 /* HourlyEmployee.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				089C6927229EF7EE00F8E628 /* CommissionEmployee.swift in Sources */,
 				089C6918229EDC9D00F8E628 /* main.swift in Sources */,
+				089C692B229F037B00F8E628 /* HourlyEmployee.swift in Sources */,
 				089C6929229F01FA00F8E628 /* BasePlusCommissionEmployee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
