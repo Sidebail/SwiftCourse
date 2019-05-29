@@ -26,6 +26,8 @@ print(grades.max()!) // Maximum
 print(grades.min()!) // Minimum
 print(grades.last!) // last element
 
+	
+
 
 // printing
 for g in grades
