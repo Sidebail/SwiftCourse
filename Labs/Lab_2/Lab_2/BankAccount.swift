@@ -25,7 +25,7 @@ public class BankAccount {
             }
         }
     }
-    private var interestRate: Double{
+    var interestRate: Double{
         didSet{
             if(interestRate < 0.0 || interestRate > 2.0){
                 print("Interest rate is invalid! Setting it back to \(oldValue)")
@@ -33,7 +33,7 @@ public class BankAccount {
             }
         }
     };
-    private var accountBalance: Double{
+    var accountBalance: Double{
         willSet{
             print("Setting account balance to \(newValue)...")
         }
@@ -44,7 +44,7 @@ public class BankAccount {
             }
         }
     }
-    private var description: String{
+    public var description: String{
         get{
             return "Account Number: \(accountNumber); Customer Name:  \(customerName); Interest Rate:  \(interestRate); Account Balance:  \(accountBalance)";
             
@@ -62,6 +62,10 @@ public class BankAccount {
         self.customerName = customerName;
         self.interestRate = interestRate;
         self.accountBalance = accountBalance;
+    }
+    
+    deinit {
+        self.customerName = "DEPRECATED!";
     }
     
     public func credit(amount: Double){

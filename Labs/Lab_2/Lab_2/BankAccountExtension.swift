@@ -8,4 +8,14 @@
 
 import Foundation
 
-public class BankAccountExtension
+extension BankAccount{
+    var interest: Double{
+        get{
+            return self.interestRate * self.accountBalance;
+        }
+    }
+    
+    public convenience init(accountNumber: Int, name: String, balance: Double ) {
+        self.init(accountNumber: accountNumber, customerName: name,  interestRate: 0.0, accountBalance: balance);
+    }
+}
