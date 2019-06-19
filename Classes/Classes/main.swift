@@ -16,7 +16,7 @@ let excercise2 = BasePlusCommissionEmployee(id: 1, name: "Vlad", commissionRate:
 print(excercise2.description())
 print(excercise2.CalculateComission())
 
-let excercise3 = HourlyEmployee(id: 1, name: "Vlad", numberOfHours: 47, hourlyRate: 35.0)
+let excercise3 = HourlyEmployee(id: 3, name: "Vlad", numberOfHours: 47, hourlyRate: 10.0)
 print(excercise3.description())
 print(excercise3.getHourlyRate())
 
