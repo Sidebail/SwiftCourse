@@ -33,5 +33,5 @@ public func Search<T : Comparable>( values: [T], valueToFind: T ) -> String {
     return "Element not found";
 }
 
-print(Search(values: integers, valueToFind: 54));
+print(Search(values: integers, valueToFind: 1));
 
