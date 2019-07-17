@@ -31,10 +31,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var lDetials: UILabel!
     
     @IBAction func onCalculateClicked(_ sender: UIButton) {
-        let interestRate = Float(tfInterestRate.text!)!;
-        let totalLoan = Float(tfLoanAmount.text!)! + (Float(tfLoanAmount.text!)! * interestRate * Float(tfNumberOfYears.text!)!);
-        let numOfYears = Float(tfNumberOfYears.text!)!;
-        lDetials.text = "\(totalLoan) \n \(totalLoan * numOfYears / 12) "
+        if(tfInterestRate.text == "" || tfLoanAmount.text == "" || tfNumberOfYears.text == ""){
+            lDetials.text = "Not valid! Please input all values!";
+        }else{
+            let interestRate = Float(tfInterestRate.text!)!;
+            let totalLoan = Float(tfLoanAmount.text!)! + (Float(tfLoanAmount.text!)! * interestRate * Float(tfNumberOfYears.text!)!);
+            let numOfYears = Float(tfNumberOfYears.text!)!;
+            lDetials.text = "\(totalLoan) \n \(totalLoan * numOfYears / 12) "
+        }
+        
     }
     
     
